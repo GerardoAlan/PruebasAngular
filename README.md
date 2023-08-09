@@ -17,4 +17,9 @@ Para correr la prueba en otra terminal:
     protractor conf.js
 
 # Prueba Unitaria con Jasmin y Karma
+Para correr la prueba unitaria hay que entrar a la carpeta angular-project y ejecutar:
+    ng test
 
+Para generar el reporte de cobertura hay que ejecutar el comando:
+    ng test --no-watch --code-coverage
+Posteriormente abrir la carpeta llamada 'coverage' que genera el anterior comando y dentro abrir el archivo index.html en el navegador
